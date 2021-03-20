@@ -9,8 +9,11 @@ application:
     type: "ssd"
     mount_point: "/mnt/local"
 databases:
+- type: "REDIS"
+  name: "wizz-db"
+  version: "12"
 - type: "POSTGRESQL"
-  name: "wizzuae"
+  name: "wizz-redis"
   version: "12"
 routers:
 - name: "main-wizz-cms"
