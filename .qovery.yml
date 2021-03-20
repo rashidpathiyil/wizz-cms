@@ -5,13 +5,10 @@ application:
   organization: "QoveryCommunity"
   storage:
   - name: "local"
-    size: "10"
+    size: "5GB"
     type: "ssd"
     mount_point: "/mnt/local"
 databases:
-- type: "REDIS"
-  name: "wizz-db"
-  version: "12"
 - type: "POSTGRESQL"
   name: "wizz-redis"
   version: "12"
